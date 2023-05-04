@@ -1,0 +1,13 @@
+<!-- temp.html -->
+
+<script>
+
+    // const data = {key : "value"};
+    // const json = JSON.stringify(data);
+    
+    // localStorage.setItem("test", json);
+    
+    const newJson = localStorage.getItem("test");
+    const newdata = JSON.parse(newJson);
+    alert(newdata.key);
+</script>
